@@ -178,7 +178,7 @@ export const updateUserProfile = (user) => async (dispatch, getState) => {
             payload: message,
         })
     }
-  }
+}
 
 
 
