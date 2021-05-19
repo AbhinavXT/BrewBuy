@@ -34,6 +34,7 @@ const ShippingScreen = ({ history }) => {
                         type='text' 
                         placeholder='Enter Address' 
                         value={address} 
+                        required 
                         onChange={(e) => setAddress(e.target.value)}
                     />
                 </Form.Group>
@@ -43,7 +44,6 @@ const ShippingScreen = ({ history }) => {
                         type='text' 
                         placeholder='Enter City'
                         value={city}
-                        required 
                         onChange={(e) => setCity(e.target.value)}
                     />
                 </Form.Group>
